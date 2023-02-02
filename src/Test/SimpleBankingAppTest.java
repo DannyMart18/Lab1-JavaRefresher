@@ -62,7 +62,6 @@ public class SimpleBankingAppTest {
 
 
 		// tear-down: put the system state back in where it was
-		// read more about the tear-down phase of test cases: http://xunitpatterns.com/Four%20Phase%20Test.html
 		mainApp.addTransaction("5495-1234", +withdrawlAmount);
 
 	}
