@@ -56,6 +56,27 @@ class UserTest {
             System.out.println("All TCs passed!!!!");
         }
 
+        //using asserts
+
+        //assert test for username
+        assert testUser.getUsername() == testUsername;
+
+        //assert test for password
+        assert testUser.getPassword() == testPassword;
+
+        //assert test for firstname
+        assert testUser.getFirstName() == testFirstName;
+
+        //assert test for lastname
+        assert testUser.getLastName() == testLastName;
+
+        //assert test for mobile numberf
+        assert testUser.getMobileNumber() == testMobileNumber;
+
+
+
+        System.out.println("All test asserts passed");
+
 
     }
 
